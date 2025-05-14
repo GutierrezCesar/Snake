@@ -29,7 +29,7 @@ Este es un juego clásico de Snake (la serpiente) desarrollado con tecnologías 
 ## 🌐 Juega en línea
 
 Puedes jugar la versión en línea aquí:  
-👉 [Jugar Snake]()  
+👉 [Jugar Snake](https://gutierrezcesar.github.io/Snake/)  
 
 
 ## 🚀 Cómo ejecutar
