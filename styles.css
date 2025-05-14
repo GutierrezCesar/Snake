@@ -1,0 +1,62 @@
+*{
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* Ancho maximo tanto a la informacion como al tablero*/
+#board, .boardInfo{
+    max-width: 500px
+}
+
+#board {
+    /*Un sistema de filas y columnas*/
+    display: grid; 
+    /* Crea 10 columnas de igual tamano */
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: #f35a69;
+    border: none;
+    color: white;
+}
+
+/* Muestre el total a lado del Score */
+#scoreBoard {
+    display: inline-flex;
+}
+
+/* Le vamos a dar que sean cuadrados */
+.square {
+    aspect-ratio: 1;
+}
+
+/* Cuadrados vacio */
+.emptySquare {
+    background-color: #6d71b5;
+}
+
+/* Color de la serpiente */
+.snakeSquare {
+    background-color: #e3e773;
+    border: 1px solid #000;
+}
+
+/* Comida de la serpiente */
+.foodSquare {
+    background-color: #55e7e7;
+    border: 1px solid #000;
+}
